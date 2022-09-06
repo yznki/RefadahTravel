@@ -1,0 +1,368 @@
+/* --------------------- Reset CSS --------------------- */
+
+* html{
+	margin: 0;
+	padding: 0;
+	border-radius: 0px;
+	font-family: poppins, sans-serif;
+}
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}
+
+
+/* --------------------- My CSS --------------------- */
+
+.wrapper {
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+.backtohome {
+
+    position: absolute;
+    top: 35px;
+    left: 35px;
+
+}
+
+.xbutton, .xbutton:visited {
+
+    color: #439D93;
+    cursor: pointer;
+
+}
+
+.xbutton:hover {
+
+    color: #2d6c64;
+
+}
+
+
+.subtitle {
+
+    font-size: 8pt;
+    padding-bottom: 0rem;
+    margin: 0;
+    transition: 0.1s;
+}
+
+.inputBar {
+
+    padding: 0.4rem 0;
+    font-size: 1rem;
+
+}
+
+.inputBar input::placeholder{
+
+    text-align: center;
+    font-size: 12pt;
+    transition: 0.4s;
+    
+
+}
+
+.passinput input::placeholder {
+
+    font-size: 5pt;
+    letter-spacing: 3px;
+}
+
+
+.inputBar input:focus::placeholder {
+    color: transparent;
+}
+
+.inputBar input{
+    
+    text-align: center;
+    width: 80vw;
+    height: 2.3rem;
+    caret-color: #439D93;
+    outline-color: #439D93;
+    border-width: 0.4px;
+    border-radius: 0.2rem;
+    transition: 0.1s;
+}
+
+.nameInputs{
+
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    /* gap: 0.7rem; */
+
+}
+
+.fnameInput input, .lnameInput input{
+
+    width: 38vw;
+    align-items: center;
+
+}
+
+.topCompanyLogo {
+
+    width: 8rem;
+
+}
+
+.forgotPass {
+
+    font-size: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: #439D93;
+
+
+}
+
+.forgotPass:visited {
+
+    color: #439D93;
+
+}
+
+.submitButton {
+
+    margin-top: 0.5rem;
+    width: 80vw;
+    border: none;
+    padding: 0.3rem;
+    background-color: #439D93;
+    color: whitesmoke;
+    border-radius: 0.2rem;
+    height: 2.3rem;
+    transition: 0.1s;
+
+}
+
+.signuplink {
+
+    list-style: none;
+    text-decoration: none;
+    color: #439D93;
+
+}
+
+.signuplink:hover {
+
+    color: #31726a;
+
+}
+
+.signuptext {
+
+    font-size: 0.7rem;
+
+}
+
+.welcomeHead {
+
+    text-align: center;
+
+}
+
+
+
+.bigCompanyLogo {
+
+    display: none;
+
+}
+
+.messages {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.confirmationmessage {
+    padding-top: 0.4rem;
+    font-size: 0.7rem;
+    color: #439D93;
+}
+
+
+
+/* ----------------------------------------------------------------- Media Queries ----------------------------------------------------------------- */
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    
+    .inputBar input {
+        
+        width: 70vw;
+
+    }
+
+    .submitButton {
+
+        width: 70vw;
+
+    }
+
+    .subtitle {
+
+        font-size: 10pt;
+        padding-bottom: 1rem;
+
+    }
+
+
+    .nameInputs {
+
+        width: 70vw;
+
+    }
+
+    .fnameInput input, .lnameInput input {
+
+        width: 33vw;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .inputBar input {
+        
+        width: 60vw;
+
+    }
+
+    .submitButton {
+
+        width: 60vw;
+
+    }
+
+    .forgotPass {
+
+        font-size: 0.8rem;
+
+    }
+
+    .nameInputs {
+
+        width: 60vw;
+
+    }
+
+    .fnameInput input, .lnameInput input {
+
+        width: 28vw;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+    .wrapper {
+
+        flex-direction: row;
+
+    }
+
+
+
+    .topCompanyLogo {
+
+        display: none;
+
+    }
+
+    .loginForm {
+        width: 50vw;
+        height: 60vh;
+        margin: 0;
+    }
+
+    .bigCompanyLogo {
+
+        display: flex;
+        width: 50vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(250, 250, 250);
+
+    }
+
+    .spaceTop {
+
+        display: none;
+
+    }
+
+    .inputBar input {
+
+        width: 35vw;
+
+    }
+
+    .submitButton {
+
+        width: 35vw;
+
+    }
+
+    .forgotPass {
+
+        font-size: 0.7rem;
+
+    }
+
+    .nameInputs {
+
+        width: 35vw;
+
+    }
+
+    .fnameInput input, .lnameInput input {
+
+        width: 17vw;
+
+    }
+
+    .passwordInputs {
+
+        display: flex;
+        justify-content: space-between;
+        width: 35vw;
+
+    }
+
+    #pswd1, #pswd2 {
+
+        width: 17vw;
+
+    }
+}

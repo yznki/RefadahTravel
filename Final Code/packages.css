@@ -1,0 +1,187 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.content {
+    
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    overflow: hidden;
+
+}
+
+.packagecontent {
+
+    width: 80vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.packageinfo {
+
+    width: 80vw;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.packageimage {
+
+    width: 80vw;
+    height: 50vh;
+    padding-top: 1rem;
+
+}
+
+.packagedesc {
+
+    font-size: 0.8rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+
+}
+
+.citytitle {
+    font-size: 1.5rem;
+    color: #39827a;
+}
+
+.packageaddbutton button {
+
+    padding: 0.6rem 0.9rem;
+    background-color: #39827a;
+    border: transparent;
+    color: whitesmoke;
+    border-radius: 50%;
+
+}
+
+.packagetitle {
+
+    width: 60vw;
+    text-align: justify;
+
+}
+
+.divider {
+
+    width: 70vw;
+
+}
+
+.packageprice {
+
+    color: #39827a;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .packageimage {
+
+        width: 60vw;
+
+    }
+
+    .packageinfo {
+
+        width: 60vw;
+
+    }
+
+    .packagetitle {
+
+        width: 40vw;
+
+    }
+
+    .citytitle {
+
+        font-size: 2rem;
+
+    }
+    .packagedesc {
+
+        font-size: 1.2rem;
+
+    }
+    .packageprice {
+
+        font-size: 1.5rem;
+
+    }
+
+    .packageaddbutton button {
+
+        font-size: 1.3rem;
+        padding: 1rem 1.4rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .packagecontent {
+
+        flex-direction: row;
+        width: 90vw;
+
+    }
+
+    .packageimage {
+
+        width: 35vw;
+        height: 35vw;
+
+    }
+
+    .packageinfo {
+
+        width: 60vw;
+        padding: 0rem 2rem 0 3rem;
+    }
+    .packagetitle {
+
+        width: 30vw;
+
+    }
+
+    .citytitle {
+
+        font-size: 3rem;
+
+    }
+
+    .packagedesc {
+
+        font-size: 1.3rem;
+
+    }
+
+    .packageaddbutton button{
+
+        font-size: 1.5rem;
+        padding: 1rem 1.4rem;
+
+    }
+
+}

@@ -1,0 +1,419 @@
+.websitePage {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading {
+
+    font-size: 2rem;
+    padding-top: 2rem;
+    color: #439D93;
+    font-style: italic;
+
+}
+
+.headingwrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.mapimg {
+
+    order: 0;
+    min-width: 80vw;
+    padding-bottom: 2rem;
+
+}
+
+.loco {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-height: 20vh;
+    margin-top: 2rem;
+
+}
+
+.branchdetails {
+
+    min-height: 5vh;
+    min-width: 100%;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    margin-right: 0;
+
+}
+.socials {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 65vw;
+    text-align: left;
+    padding-bottom: 1.5rem;
+    flex: 1;
+
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 24vw;
+    flex: 1;
+}
+
+.wrapper a {
+
+    display: -webkit-box;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0.2rem 0rem;
+}
+
+.wrapper a:visited {
+
+    color: black;
+
+}
+
+.wrapper a:hover {
+
+    color: white;
+    background-color: #439D93;
+    border-radius: 0.4rem;
+    margin-bottom: 0rem;
+    padding: 0.5rem;
+
+}
+
+.maphead {
+
+    font-size: 1.7rem;
+
+}
+
+.topmap {
+
+    display: none;
+
+}
+
+.midmap {
+
+    display: block;
+}
+
+.locationmap {
+
+    font-size: 1rem;
+}
+.cityncountry {
+
+    font-size: 0.7rem;
+
+}
+
+.icon {
+    
+    padding-right: 1rem;
+
+}
+
+.socials icon, .socials p {
+
+    font-size: 1rem;
+    margin-bottom: 0rem;
+
+}
+
+.socialshead {
+
+    color: #439D93;
+    font-style: italic;
+    padding-bottom: 1rem;
+
+}
+
+.contactForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 0.7rem;
+    border-radius: 0.4rem;
+    background-color: #439D93;
+    width: 90vw;
+
+}
+
+.submitButton {
+
+    margin-top: 0.5rem;
+    width: 80vw;
+    border: none;
+    padding: 0.3rem;
+    background-color: #2d6861;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    height: 2.3rem;
+    transition: 0.1s;
+
+}
+
+.inputlabel {
+
+    color: #ffffff;
+    padding-bottom: 0.2rem;
+
+}
+
+.inputBar {
+
+    padding: 0.4rem 0;
+    font-size: 1rem;
+
+}
+
+.inputBar input::placeholder , .textareareason::-webkit-input-placeholder{
+
+    text-align: center;
+    font-size: 10pt;
+    transition: 0.4s;
+    
+
+}
+
+.inputBar input:focus::placeholder , .textareareason:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+.inputBar input, .textareareason{
+    
+    text-align: center;
+    width: 80vw;
+    height: 2.3rem;
+    caret-color: #439D93;
+    outline-color: #439D93;
+    border-width: 0.4px;
+    border-radius: 0.2rem;
+    transition: 0.1s;
+}
+
+.textareareason {
+
+    height: 30vw;
+    text-align: left;
+
+}
+
+.toprow {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.textareareason::-webkit-input-placeholder {
+
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .topmap {
+
+        display: block;
+
+    }
+
+    .midmap {
+
+        display: none;
+    }
+
+    .toprow {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+    }
+
+    .textareareason {
+
+        height: 15vw;
+    
+    }
+
+    .nameInput input, .emailInput input{
+
+        width: 39vw;
+
+    }
+    
+    .wraploco {
+
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        margin-left: 1rem;
+        
+    }
+
+    .loco {
+ 
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        padding: 1rem 2rem;
+        
+    }
+
+    .branchdetails {
+
+        width: 80%;
+        order: 1;
+        text-align: center;
+
+    }
+
+    .socials {
+
+        flex: none;
+        min-width: 80%;
+        flex: 1;
+        order: 2;
+    }
+
+
+    .mapimg {
+
+        min-width: 20vw;
+        max-width: 50vw;
+        height: 50vw;
+        flex: 1;
+
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .submitButton {
+        
+        height: 4rem;
+        font-size: 1.7rem;
+        font-style: italic;
+
+    }
+
+    .contactForm {
+
+        padding: 1.5rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .inputlabel {
+
+        font-size: 1.5rem;
+
+    }
+
+    .inputBar input{
+    
+        height: 3rem;
+    }
+
+    .maphead, .socialshead {
+
+        font-size: 3rem;
+
+    }
+
+    .locationmap {
+
+        font-size: 2rem;
+
+    }
+
+    .cityncountry {
+
+        font-size: 1.5rem;
+
+    }
+
+    .wrapper, .wrapper p {
+
+        font-size: 2rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1680px) {
+
+    .contactForm {
+
+        width: 60vw;
+
+    }
+
+    .inputBar input, .textareareason{
+        width: 55vw;
+    }
+    
+    .textareareason {
+    
+        height: 10vw;
+        text-align: left;
+    
+    }
+
+    .toprow {
+
+        width: 55vw;
+
+    }
+
+    .nameInput input, .emailInput input {
+
+        width: 27vw;
+
+    }
+
+    .submitButton {
+
+        width: 55vw;
+
+    }
+
+}

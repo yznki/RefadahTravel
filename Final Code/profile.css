@@ -1,0 +1,285 @@
+.contentsection {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-height: 40vw;
+    
+
+}
+
+.userinfo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pp {
+
+    width: 35vw;
+    height: 35vw;
+    border-radius: 100%;
+    margin: 1rem;
+
+}
+
+.username h1 {
+
+    font-size: 2rem;
+    color: #439D93;
+
+}
+
+.useremail h5{
+
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.packages {
+
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem;
+
+}
+
+.packagecontent {
+
+    display: flex;
+    width: 40vw;
+    min-height: 10vh;
+    flex-direction: column;
+
+}
+
+.citytitle {
+
+    font-size: 1rem;
+
+}
+
+.packageimage {
+
+    width: 45vw;
+    height: 25vh;
+
+}
+
+.packageinfo {
+
+    width: 40vw;
+    min-height: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.packagetitle {
+    width: 40vw;
+    text-align: center;
+}
+
+.editbutton {
+
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    font-style: italic;
+
+}
+
+.packagedeparture {
+
+    margin-bottom: 0.2rem;
+
+}
+
+.deletebutton {
+
+    border: none;
+    background-color: #439D93;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    color: white;
+    border-radius: 0.3rem;
+    align-self: flex-end;
+}
+
+.departstext {
+
+    display: none;
+}
+
+.packagesh.webhead {
+
+    display: none;
+
+}
+
+.packagesh.mobilehead {
+
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+.packagesh.mobilehead h1{
+
+    font-size: 2.2rem;
+
+}
+
+.packagesh h1{
+
+    font-style: italic;
+
+}
+
+.mobileSeperate {
+
+    margin-top: 2rem;
+    width: 70vw;
+
+}
+
+@media only screen and (min-width: 700px) {
+
+    .packagecontent {
+
+        width: 27vw;
+
+    }
+
+    .packageimage {
+
+        width: 27vw;
+        height: 35vh;
+
+    }
+
+    .citytitle {
+
+        font-size: 1.1rem;
+
+    }
+
+    .pp {
+
+        width: 25vw;
+        height: 25vw;
+
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .contentsection {
+
+        flex-direction: row;
+    }
+    .userinfo {
+
+        align-self: flex-start;
+        width: 30vw;
+        margin-top: 1rem;
+
+    }
+
+    .packages {
+
+        flex-direction: column;
+        min-width: 70vw;
+        min-height: 70vh;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .packagesh.mobilehead {
+        display: none;
+    }
+    .mobileSeperate {
+        display: none;
+    }
+
+    .packagesh.webhead {
+
+        display: block;
+
+    }
+
+    .pp {
+
+        width: 15vw;
+        height: 15vw;
+
+    }
+
+    .packageimage {
+
+        width: 26vw;
+        height: 22vw;
+
+    }
+
+    .packagecontent {
+
+        width: 68vw;
+        flex-direction: row;
+
+    }
+
+    .packageinfo {
+
+        width: 30vw;
+        padding: 0;
+
+    }
+
+    .deltext {
+
+        display: none;
+
+    }
+
+    .deletebutton {
+
+        padding: 0.6rem 0.8rem;
+        font-size: 1.2rem;
+
+    }
+
+    .packagetitle {
+
+        width: 25vw;
+
+    }
+
+    .citytitle {
+
+        font-size: 1.6rem;
+
+    }
+
+    .departstext {
+
+        display: inline;
+
+    }
+
+}

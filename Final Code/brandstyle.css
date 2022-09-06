@@ -1,0 +1,1183 @@
+/* --------------------- Reset CSS --------------------- */
+
+* html{
+	margin: 0;
+	padding: 0;
+	border-radius: 0px;
+	font-family: poppins, Arial, Helvetica, sans-serif;
+}
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}
+
+/* --------------------- My CSS --------------------- */
+
+body::-webkit-scrollbar {
+
+	display: none;
+
+}
+
+ul {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+.websitePage {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-width: 100vw;
+	min-height: 50vh;
+
+}
+
+.containertop {
+
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 10vh;
+	max-height: 15vh;
+	box-sizing: border-box;
+	background-color: #439D93;
+	box-shadow: 0px 0 15px #1515154e;
+	z-index: 3;
+	padding-left: 0.5rem;
+
+}
+
+.navbartop {
+
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.menutop {
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+
+.navbartop h1 {
+
+	font-size: 32px;
+	color: whitesmoke;
+}
+
+.navbartop a {
+
+	text-decoration: none;
+	color: whitesmoke;
+	transition: 0.4s;
+
+}
+
+nav a:hover, .dropdown-menu a:hover {
+
+	color: #439D93;
+	background-color: white;
+	padding: 0.3rem;
+	border-radius: 0.2rem;
+
+}
+
+.logoutitem:hover {
+
+	background-color: rgb(214, 96, 96) !important;
+
+}
+
+.logoutitem {
+
+	font-size: 1rem;
+	font-style: italic;
+	display: none;
+
+}
+
+.nav-link:focus  {
+
+	color: white;
+
+}
+
+.nav-link:hover {
+
+	color: #439D93;
+
+}
+
+nav a:active {
+
+	color: #ffffff;
+	background-color: transparent;
+	padding: 0.3rem;
+	border-radius: 0.2rem;
+
+}
+
+.logo {
+
+	width: 50px;
+	margin: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	 
+}
+
+.burger {
+
+	width: 25px;
+	cursor: pointer;
+	display: none;
+}
+
+.burgerButton {
+
+	display: none;
+	
+}
+
+.cart {
+
+	width: 19px;
+	cursor: pointer;
+	padding-right: 1.3rem;
+	
+}
+
+
+
+.burger:hover {
+
+	color: #474747;
+
+}
+
+nav {
+
+	flex: 1;
+	text-align: right;
+	margin-right: 0.5rem;
+
+}
+
+nav ul li {
+
+	font-size: 18px;
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+	font-weight: 1500;
+
+}
+
+nav ul li a {
+
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+
+
+.dropdown {
+
+	z-index: 1000000;
+
+}
+
+.dropdown-menu.show {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+	padding: 0.5em 0.5em;
+	background-color: #439D93;
+	width: 3rem;
+	transform: translate3d(0px, 43px, 0px) !important;
+
+}
+
+
+
+.dropdown-menu-dark li{
+
+	margin: 0;
+	--bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0);
+	--bs-dropdown-link-active-bg: transparent;
+	--bs-dropdown-item-hover: red;
+}
+
+
+.hellotext {
+
+	display: none;
+	cursor: default;
+	align-self: center;
+	opacity: 40%;
+
+	
+}
+
+.newusertext {
+
+	display: block;
+	cursor: default;
+	font-size: 0.7rem;
+	
+}
+
+.profileitem, .paymentitem {
+
+	display: none;
+
+}
+
+/* Middle Section */
+
+.homeHeader {
+
+	align-self: flex-start;
+	justify-self: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100vw;
+	min-height: 5vh;
+	max-height: 60vh;
+	z-index: -1;
+	margin:0em 0em 1em 0em;
+
+}
+
+.headerImage {
+
+	width: 100vw;
+
+}
+
+.page-content {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.topsellingtext {
+
+	color: #439D93;
+	font-size: 2.5em;
+	font-style: italic;
+	padding-bottom: 0.5em;
+
+}
+
+.topSelling {
+
+
+	width: 100vw;
+	min-height: 30vh;
+
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: space-around;
+	align-items: center;
+	flex-basis: auto;
+	padding: 0.5rem 1rem;
+
+}
+
+.package1, .package2, .package3, .package4 {
+
+	min-height: 55vh;
+	width: 20vw;
+
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	
+
+}
+
+.packageimg {
+
+	border-radius: 0.5em;
+	width: 20rem;
+	height: 30rem;
+
+}
+
+.packagetext {
+
+
+	width: 20rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.3rem 0.3rem;
+
+}
+
+.city {
+
+	font-size: 1.5em;
+
+}
+
+.price {
+
+	color: #439D93;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 0.1em;
+	display: inline-block;
+	font-size: 1.6em;
+
+}
+
+.priceandbutton {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-right: 0.5em;
+
+}
+
+.addCartButton {
+
+	border: none;
+	background-color: #439D93;
+	text-align: center;
+	padding: 1em 1.4em;
+
+	border-radius: 5em;
+	color: whitesmoke;
+	cursor: crosshair;
+	margin-top: 1rem;
+
+
+}
+
+.midimg {
+	
+	min-height: 30vh;
+	max-height: 60vh;
+	width: 95vw;
+
+}
+
+
+.ourbranch {
+
+	width: 99vw;
+	min-height: 80vh;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2em;
+	align-items: center;
+	margin: 0;
+
+}
+
+.branchdetails * {
+
+	margin: 0;
+
+}
+
+.mapimg {
+
+	width: 47vw;
+	height: 70vh;
+
+}
+
+.branchdetails {
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 45vw;
+	min-height: 70vh;
+
+}
+
+.maphead {
+
+	font-size: 3.5em;
+	font-weight: bold;
+	color: #439D93;
+
+}
+
+.locationmap {
+
+	font-size: 2em;
+
+}
+
+.visittimes {
+
+	font-style: italic;
+	font-size: 1.2em;
+
+}
+
+.time {
+
+	color: #439D93;
+
+}
+
+.contactbtn {
+
+	align-self: center;
+	border: 0;
+	width: 15vw;
+	height: 10vh;
+	font-size: 1.1em;
+	transition: 0.3s;
+
+}
+
+.contactbtn:hover {
+
+	background-color: #439D93;
+	font-style: italic;
+	color: white;
+
+}
+
+.footerContent {
+
+	background-color: #439D93;
+	width: 100vw;
+	min-height: 10vh;
+	justify-self: center;
+	align-self: flex-end;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1em;
+
+}
+
+.rightMenu, .leftMenu {
+
+	text-decoration: none;
+	color: whitesmoke;
+	list-style: none;
+	align-self: center;
+	font-size: 14px;
+
+}
+
+.logoFooter {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.logoFooter a {
+
+	text-decoration: none;
+
+}
+
+.titleFooter {
+
+	font-size: 20px;
+	color: whitesmoke;
+	font-weight: 350;
+
+}
+
+.footerImg {
+
+	display: none;
+
+}
+
+.midSection {
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.socialMedia {
+
+	padding: 0.2em 0em 0em 0em;
+	min-width: 10vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1em;
+	gap: 1.3em;
+
+}
+
+.socialIcon {
+
+	color: whitesmoke;
+
+}
+
+.leftMenu {
+
+	display: flex;
+	gap: 2em;
+	text-align: center;
+	padding-top: 0.5em;
+	font-weight: 300;
+
+}
+
+.leftMenu li {
+
+	padding-bottom: 0.6em;
+
+}
+
+.leftMenu li a {
+
+	text-decoration: none;
+	list-style: none;
+	color: whitesmoke;
+	font-size: 1em;
+
+}
+
+.footerText {
+
+	font-family: poppins;
+	color: whitesmoke;
+	font-size: 1.1em;
+	text-align: center;
+	margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile */
+
+/* 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------- have to make a landscape media query --------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+@media (max-width:1400px) {
+
+	.package1, .package2, .package3, .package4 {
+
+		margin: 0 2em;
+
+	}
+
+}
+
+@media (max-width:1110px) {
+	
+	.package1, .package2, .package3, .package4 {
+
+		margin: 0 5em;
+
+	}
+	.packageimg {
+
+		width: 20rem;
+
+	}
+
+	.branchdetails * {
+
+		margin: 0;
+
+	}
+
+	.ourbranch {
+
+		padding: 0.5rem 0.8rem;
+
+	}
+
+	.locationmap {
+
+		font-size: 1.2rem;
+
+	}
+
+	.maphead {
+
+		font-size: 2.3rem;
+
+	}
+
+	.contactbtn {
+
+		font-size: 0.8rem;
+
+	}
+
+}
+
+@media (max-width:700px) {
+	
+	.containerpage {
+
+		min-height: 5vh;
+		box-shadow: 0px 0 15px #1515154e;
+
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.logo {
+
+		margin: 0;
+
+	}
+
+	.navbartop {
+
+		padding: 1em;
+		width: 100vw;
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		
+	}
+
+
+	nav {
+
+		margin-right: 0;
+
+	}
+
+	.navbartop a:focus {
+
+		color: white;
+		background-color: transparent;
+		padding: 0.3rem;
+	
+	}
+
+	.logotitle {
+
+		margin: 0;
+		
+		
+	}
+
+	.burgerButton {
+
+		display: inline-block;
+		border: none;
+		background-color: transparent;
+		
+	}
+
+	#menuPhone {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		max-height: 0px;
+		background-color: #39827a;
+		text-align: center;
+		position: absolute;
+		top: 0px;
+		overflow: hidden;
+		transition: 0.4s;
+		right: 0px;
+		padding-top: 0em;
+
+	}
+
+	.dropdown-menu.show{
+
+		position: relative !important;
+		min-width: 100vw;
+		margin: 0.3em 0 !important;
+		align-items: center;
+		--bs-dropdown-bg: #2c655f;
+		transition: 0.5s !important;
+		transform: translate3d(0rem, 0, 0px) !important;
+		padding-bottom: 1rem;
+
+	}
+
+	.newusertext {
+
+		font-size: 1.2rem;
+		padding-top: 0.5rem;
+		padding-left: 1rem;
+
+	}
+
+	nav ul li {
+
+		display: block;
+		font-size: 1.4rem;
+		margin: 0;
+		
+	}
+
+	.cart {
+
+		margin-top: 0.5rem;
+		padding-bottom: 1rem;
+		width: auto;
+
+	}
+
+
+
+	.homeHeader {
+
+		z-index: -2;
+
+	}
+
+
+
+	/* --------------------------------------- Mid Section --------------------------------------- */
+
+
+	
+	.topSelling {
+
+		min-height: 90rem;
+		padding: 1em;
+		row-gap: 0rem;
+		gap: 0;
+
+	}
+
+	.topsellingtext {
+
+		z-index: -3;
+
+	}
+
+	.package1, .package2, .package3, .package4 {
+
+		min-height: 35em;
+		width: 30em;
+		margin: 0em;
+		overflow: hidden;
+
+	}
+
+	.packageimg {
+
+		height: 25em;
+		width: 25em;
+
+	}
+
+	.packagetext {
+
+		font-size: 1rem;
+		width: 24rem;
+		height: 6em;
+		padding: 0.2rem 0.4rem;
+
+
+	}
+
+	.city {
+
+		font-size: 2rem;
+
+	}
+
+
+	.priceandbutton {
+
+		font-size: 1.2rem;
+
+	}
+
+	.addCartButton {
+
+		margin-top: 0.2rem;
+		padding: 0.6rem 1.3rem;
+		order: 4;
+		align-self: flex-end;
+		justify-self: flex-end;
+		font-size: 1.5rem;
+		margin-top: 2rem;
+	}
+
+	.midimg {
+
+		height: 15vh;
+		width: 90vw;
+
+	}
+
+	.ourbranch {
+
+		min-height: 30rem;
+		padding: 1rem 1.2rem;
+		gap: 1em;
+
+	}
+
+	.mapimg {
+
+		height: 23rem;
+		width: 19rem;
+		flex:auto;
+
+
+	}
+
+	.branchdetails {
+
+		min-height: 20rem;
+		font-size: 0.8em;
+		width: 18rem;
+		flex-wrap: wrap;
+		flex: auto;
+
+	}
+
+	.contactbtn {
+
+		height:4em;
+		width: 10em;
+
+	}
+
+	.maphead {
+
+		font-size: 1.5rem;
+
+	}
+
+
+
+	.footerContent {
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	
+	}
+
+	.leftMenu {
+
+		text-decoration: none;
+		color: whitesmoke;
+		list-style: none;
+		align-self: center;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 0.1em;
+
+	}
+
+	.midSection {
+
+		align-self: center;
+		justify-content: center;
+		width: 80vw;
+
+	}
+
+	.footerText {
+
+		font-size: 1em;
+
+	}
+
+	.rightMenu li, .leftMenu li {
+
+		padding-bottom: 10px;
+
+
+	}
+
+	.titleFooter {
+
+		display: inline;
+		font-size: 24px;
+		color: whitesmoke;
+		margin-left: 5px;
+
+
+	}
+
+	.titleFooter {
+
+		text-decoration: none;
+
+	}
+
+
+	.socialMedia {
+
+		min-width: 20vw;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+
+	.branchdetails {
+
+		flex-direction: column;
+		min-height: 30rem;
+		flex: auto;
+
+	}
+
+	.addCartButton {
+
+		margin-top: 2rem;
+		padding: 0.6rem 1.3rem;
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- WIDTH < 600px -------------------------------------- */
+
+
+@media (max-width: 570px) {
+
+
+	.cart {
+
+		padding-right: 0;
+
+	}
+
+	.page-content {
+
+		min-height: 180rem;
+
+	}
+
+	.topSelling {
+
+		padding: 0;
+
+	}
+
+	.package {
+
+		min-width: 20rem;
+		min-height: 31rem;
+
+	}
+
+	.packageimg {
+
+		width: 16rem;
+
+	}
+
+	.packagetext {
+
+		width: 16rem;
+		font-size: 1rem;
+
+	}
+
+	.addCartButton {
+
+		font-size: 20px;
+		padding: 0.5rem 1.1rem;
+		margin-top: 0.6rem;
+
+	}
+
+	.city {
+
+		font-size: 1.4rem;
+		margin-bottom: 0rem;
+
+	}
+
+	.priceandbutton {
+		
+		font-size: 0.9rem;
+		height: 0.8rem;
+
+	}
+
+
+	.ourbranch {
+
+		min-width: 20rem;
+		max-width: 30rem;
+		padding: 0;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		min-height: 50rem;
+		overflow: auto;
+
+	}
+
+	.mapimg {
+
+		min-width: 15rem;
+		max-width: 20rem;
+		height: 20rem;
+		order: 2;
+
+	}
+
+	.branchdetails {
+		min-width: 15rem;
+		max-width: 25rem;
+		min-height: 18rem;
+		max-height: 25rem;
+		padding: 1rem;
+		flex: auto;
+	}
+
+	.maphead {
+
+		font-size: 1.7rem;
+
+	}
+
+	.midimg {
+
+		min-height: 7rem;
+
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.indexdropdown.show {
+
+		justify-content: center;
+		align-items: center;
+		background-color:white;
+	
+	}
+	
+	.indexdropdown a, .indexdropdown li {
+	
+		color: #439D93;
+	
+	}
+	
+	.indexdropdown a:hover {
+	
+		color: white;
+		background-color: #439D93;
+		padding: 0.3rem;
+		border-radius: 0.2rem;
+	
+	}
+
+	.indextop {
+
+		background-color: transparent;
+		position: absolute;
+		box-shadow: none;
+	
+	}
+	
+}
