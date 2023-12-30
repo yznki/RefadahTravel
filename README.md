@@ -52,7 +52,7 @@ git push origin feature-branch-name
 Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
 ## Contact
-- **Developer**: [Yazan Kiswani]
+- **Developer**: [@yznki]([gith](https://github.com/yznki))
 - **Email**: [yznkiswani@gmail.com](mailto:yznkiswani@gmail.com)
 - **LinkedIn**: [Yazan Kiswani](https://www.linkedin.com/in/yznki/)
 
